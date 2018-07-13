@@ -1,0 +1,62 @@
+/* CSS Document */
+
+.meal{
+	width:100%;height:300px;
+	background-color:#366;
+	}
+.menu{
+	
+}
+.menu ul{
+	line-height:50px;
+	list-style:none;
+	margin-right:40px;
+	float:right;
+	
+}
+.menu ul li{
+	width:100px;
+	height:30px;
+	
+	float:left;
+	margin-left:20px;
+	line-height:30px;
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	display:block;
+}
+/*.menu ul li a:link{
+	color:#FFF;
+}
+.menu ul li a:hover{
+	color:#6F6;	
+}
+.menu ul li a:active{
+	color:#F00;	
+}*/
+.ifm
+{
+	width: 80%;
+	height: 400px;
+
+}
+
+.home_zixun{
+
+
+}
+
+
+
+
+
+
+
+
+/*footer*/
+#footer { text-align:center;}
+#footer{ height:28px; line-height:28px; background:#afafaf; color:#fff;}
+#footer a { font-weight:bold; color:#fff; font-size: 12px;}
+#pfooter { padding:8px 0; color:#666; line-height:2;font-size: 12px;}
