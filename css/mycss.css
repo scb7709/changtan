@@ -79,10 +79,6 @@
     color: #FFF
 }
 
-.menu ul li a:link { /* 未访问的链接 */
-    color: #FFF;
-}
-
 .menu ul li a:visited { /* 已访问的链接 */
     color: #FFF;
 }
@@ -159,7 +155,7 @@
 }
 
 .iframe_floatingwindow {
-    width: 100%;
+    width: 50px;
     height: 210px;
     position: fixed;
     right: 0px;
@@ -207,17 +203,17 @@ a {
     font-size: 14px
 }
 
-.zixunleft {
+.zixuntitle {
+
+}
+
+.zixuntitle img {
     display: block;
     float: left;
     margin-top: 10px;
     width: 195px;
     height: 155px;
     margin-left: 5px
-}
-
-.zixuntitle {
-
 }
 
 .zixuntitle ul {
@@ -243,12 +239,16 @@ a {
 
 }
 
-.zixuntitle ul li a:link {
+.zixuntitle ul li a:visited {
     color: black;
 }
 
-.zixuntitle ul li a:visited {
-    color: black;
+.zixuntitle ul li a:hover {
+    color: #6F6;
+}
+
+.zixuntitle ul li a:active {
+    color: #F00;
 }
 
 .zixuntitle ul li span {
@@ -344,7 +344,6 @@ a {
 
 .gengduo a:hover { /* 当有鼠标悬停在链接上 */
     color: #6F6;
-/ / border-bottom: #13a730 solid 2 px;
 }
 
 .gengduo a:active { /* 被选择的链接 */
@@ -454,7 +453,7 @@ a {
 .detailsofconsultation_img {
     display: block;
     margin: 0 auto;
-    width: 450px;
+    width: 500px;
     height: 250px;
 
 }
@@ -644,7 +643,6 @@ a {
 
     width: 60%;
     margin: 0 auto;
-
 }
 
 .landscapeandcountryside span {
@@ -686,3 +684,132 @@ a {
     line-height: 25px;
 }
 
+/*
+
+党建帮扶
+
+*/
+.partybuildingandassistance {
+    width: 100%;
+    background: -webkit-linear-gradient(top, #f19353, #f9df95);
+    margin-top: -50px;
+
+}
+
+.partybuildingandassistance_p_title {
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.partybuildingandassistance hr {
+    width: 100%;
+    background-color: #FFF;
+    height: 1px;
+    margin-top: 10px;
+
+}
+
+.partybuildingandassistance_1 {
+    height: 230px;
+    width: 100%;
+
+}
+
+.partybuildingandassistance_1 img {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    height: 155px;
+    margin-left: 20px;
+}
+
+.partybuildingandassistance_1 ul {
+
+    float: right;
+    display: block;
+    height: 200px;
+    width: 70%;
+    margin-top: 10px;
+}
+
+.partybuildingandassistance_1 ul li {
+    height: 29px;
+    display: block;
+    line-height: 29px;
+    width: 100%;
+
+}
+
+.partybuildingandassistance_1 ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    float: left;
+    line-height: 29px;
+}
+
+.partybuildingandassistance_1 ul li a:visited {
+    color: black;
+}
+
+.partybuildingandassistance_1 ul li a:hover {
+    color: #6F6;
+}
+
+.partybuildingandassistance_1 ul li a:active {
+    color: #F00;
+}
+
+.partybuildingandassistance_1 ul li span {
+    display: block;
+
+    float: right;
+    color: #FFF;
+    font-size: 10px;
+    margin-right: 15px;
+
+}
+
+.partybuildingandassistance_2 {
+    margin-left: 15px;
+    gmargin-right: 15px;
+    marin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.partybuildingandassistance_2 div {
+
+    margin-left: 30px
+}
+
+.partybuildingandassistance_2 div img {
+
+    margin-top: 40px
+}
+
+.partybuildingandassistance_2 div p {
+    font-size: 16px;
+    color: black;
+
+}
+
+.partybuildingandassistance_3_1 p {
+    text-indent: 20px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+}
+
+.partybuildingandassistance_3_2 p {
+    padding-bottom: 5px;
+    margin-left: 25px;
+}
+.partybuildingandassistance_3_2 span {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: -10px;
+}
