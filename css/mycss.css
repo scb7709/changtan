@@ -10,7 +10,7 @@
 */
 .iframe_head {
     width: 100%;
-    height: 400px;
+    height: 500px;
 
 }
 
@@ -21,17 +21,17 @@
 
 .headAll img {
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .menuAll {
-    background: #003333;
     width: 100%;
     height: 60px;
     line-height: 60px;
     font-size: 18px;
     color: #FFF;
     float: left;
+    background-image: url(../image/menu.jpg);
 }
 
 .menuAllLeft {
@@ -52,6 +52,7 @@
     float: left;
     margin-left: 10px;
     font-size: 14px;
+
 }
 
 .menu ul {
@@ -84,8 +85,8 @@
 }
 
 .menu ul li a:hover { /* 当有鼠标悬停在链接上 */
-    color: #6F6;
-    border-bottom: #13a730 solid 2px;
+
+    border-bottom: #FFFFFF solid 2px;
 
 }
 
@@ -98,7 +99,7 @@
 .iframe_foot {
     width: 100%;
     height: 180px;
-    margin-top: 150px;
+    margin-top: 65px;
     background: #272727;
 }
 
@@ -185,9 +186,10 @@ a {
 }
 
 .subject_content_zixunwenda {
-
+    margin-top: -20px;
     width: 100%;
     height: 200px
+
 }
 
 .subject_content_zixunwenda_left {
@@ -361,6 +363,7 @@ a {
 
 .zixunwendatiyan {
     font-size: 16px;
+    margin-top: -40px;
 }
 
 .zixun {
@@ -372,6 +375,11 @@ a {
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+.overhiddden img {
+    height: 100%;
+
 }
 
 .intro-layer {
@@ -396,13 +404,17 @@ a {
     float: right;
 }
 
+.fr img {
+    height: 215px;
+}
+
 .fengjing {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .fengjing img {
     width: 100%;
-    height: auto;
+
 }
 
 .contant {
@@ -425,9 +437,15 @@ a {
 //资讯详情
 
 */
-.detailsofconsultation p{
+.detailsofconsultation {
+    margin-top: -20px;
+
+}
+
+.detailsofconsultation p {
     line-height: 25px;
 }
+
 .detailsofconsultation_title {
 
     font-size: 18px;
@@ -439,8 +457,8 @@ a {
     text-align: left;
     font-size: 12px;
     color: #3a3a3a;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-indent: 20px;
 }
 
@@ -448,7 +466,7 @@ a {
     text-align: center;
     font-size: 12px;
     color: #8a8a8a;
-    margin-top: 10px;
+    margin-top: 5px;
 
 }
 
@@ -461,7 +479,7 @@ a {
 }
 
 .detailsofconsultation_share {
-    margin-top: 50px;
+    margin-top: 35px;
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -625,12 +643,14 @@ a {
     width: 100%;
     margin: 0 auto;
     border: none;
+    margin-top: -40px;
+    margin-bottom: 30px;
 
 }
 
 .gointoLongBeach_div_table tr {
-    height: 350px;
-    margin-top: 30px;
+    height: 340px;
+
 }
 
 .gointoLongBeach_div_table tr td {
@@ -647,6 +667,7 @@ a {
 
     width: 60%;
     margin: 0 auto;
+    margin-top: -20px;
 }
 
 .landscapeandcountryside span {
@@ -682,8 +703,11 @@ a {
     color: black;
     width: 610px;
     text-indent: 20px;
-    padding-top: 25px;
+
+
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: left;
     line-height: 25px;
 }
@@ -775,30 +799,16 @@ a {
 
 */
 .partybuildingandassistance {
-    width: 100%;
-    background: -webkit-linear-gradient(top, #f19353, #f9df95);
-    margin-top: -50px;
-    padding-bottom: 50px;
+    line-height: 26px;
 
 }
 
-.partybuildingandassistance_p_title {
-    font-size: 18px;
-    color: black;
-    margin-left: 20px;
-    font-weight: 700;
-}
 
-.partybuildingandassistance hr {
-    width: 100%;
-    background-color: #FFF;
-    height: 1px;
-    margin-top: 10px;
 
-}
+
 
 .partybuildingandassistance_1 {
-    height: 230px;
+    height: 200px;
     width: 100%;
 
 }
@@ -809,7 +819,7 @@ a {
     margin-top: 10px;
     width: 200px;
     height: 155px;
-    margin-left: 20px;
+
 }
 
 .partybuildingandassistance_1 ul {
@@ -854,16 +864,17 @@ a {
     display: block;
 
     float: right;
-    color: #FFF;
+    color: #7c7c7c;
     font-size: 10px;
     margin-right: 15px;
 
 }
 
 .partybuildingandassistance_2 {
-    width: 90%;
+
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #ff00ff;
+
     border: #e5e5e5 1px;
     padding-bottom: 50px;
     border-radius: 10px;
@@ -888,9 +899,9 @@ a {
 }
 
 .partybuildingandassistance_3 {
-    width: 90%;
+
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     border-radius: 10px;
 }
 
@@ -907,9 +918,11 @@ a {
 
 }
 
-partybuildingandassistance_3_0 img {
-    margin-top: 30px;
+.partybuildingandassistance_3_0 img {
 
+    margin-top: 20px;
+    margin-bottom: -30px;
+    margin-left: -15px;
 }
 
 .partybuildingandassistance_3_1 {
@@ -935,7 +948,7 @@ partybuildingandassistance_3_0 img {
 }
 
 .partybuildingandassistance_4 {
-    width: 90%;
+
     margin: 0 auto;
     float: left;
     text-align: center;
@@ -962,18 +975,34 @@ partybuildingandassistance_3_0 img {
     margin-bottom: 5px;
 }
 
+.partybuildingandassistance_eight {
+
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: -13px
+
+}
+
 /*
 
 联系我们
 */
 .comtactus_1 {
 
-    margin-top: 20px;
+
+
+}
+.comtactus_1_img{
+
+   height: 40px;
+margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 
 .comtactus_1 table {
-    margin-top: 15px;
     width: 100%;
     height: 200px;
     background-color: #7bc584;
@@ -1008,7 +1037,7 @@ partybuildingandassistance_3_0 img {
 
 .comtactus_2 {
 
-    margin-top: 20px;
+
     width: 100%;
     margin-bottom: 20px;
 
@@ -1022,7 +1051,7 @@ partybuildingandassistance_3_0 img {
 
 .comtactus_3 {
 
-    margin-top: 20px;
+
     width: 100%;
 
 }

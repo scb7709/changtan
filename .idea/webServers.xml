@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3b43f6f2-766b-49d2-b54c-d29843799dcb" name="Locolhost" url="E:\work\dreamweaver\changtan\html">
+        <fileTransfer port="0" mountedRoot="E:\work\dreamweaver\changtan" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
