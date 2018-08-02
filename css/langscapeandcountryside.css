@@ -1,0 +1,54 @@
+
+
+/*
+
+山水乡村
+*/
+.landscapeandcountryside {
+
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.landscapeandcountryside span {
+
+    color: #8c8c8c;
+    font-size: 13px;
+
+}
+
+.landscapeandcountryside_img1 {
+
+    display: block;
+    width: 310px;
+
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+.landscapeandcountryside_img2 {
+
+    display: block;
+    height: 300px;
+    width: 610px;
+    margin: 0 auto;
+    padding-top: 15px;
+
+}
+
+.landscapeandcountryside p {
+    display: block;
+    font-size: 13px;
+    color: black;
+    width: 610px;
+    text-indent: 20px;
+
+
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    line-height: 25px;
+}
