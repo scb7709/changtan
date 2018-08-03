@@ -3,9 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
+
 a {
     text-decoration: none;
 }
+
 /*
 //头部大图和菜单
 
@@ -157,14 +159,6 @@ a {
     color: #fff;
 }
 
-.iframe_floatingwindow {
-    width: 50px;
-    height: 210px;
-    position: fixed;
-    right: 0px;
-    top: 400px
-}
-
 .meal {
     width: 100%;
     height: 300px;
@@ -176,31 +170,11 @@ a {
     display: block;
 }
 
-
 .subject_content {
 
     width: 60%;
     margin: 0 auto
 }
-
-
-
-.contant {
-    width: 50px;
-    height: 180px;
-    background: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    right: 0;
-    line-height: 25px;
-    text-align: center;
-}
-
-.contant img {
-    height: 30px;
-    width: 30px;
-}
-
 
 .gengduo {
     float: right;
@@ -225,4 +199,25 @@ a {
 
 .gengduo a:active { /* 被选择的链接 */
     color: #F00;
+}
+
+/*
+右边悬浮窗口
+
+*/
+.floatingwindow {
+   background-color: black;
+    opacity: 0.5;
+    width: 50px;
+    height: 180px;
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.floatingwindow img {
+    height: 30px;
+    width: 30px;
 }
