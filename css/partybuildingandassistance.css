@@ -80,7 +80,7 @@
 .partybuildingandassistance_2 {
 
     margin: 0 auto;
-    background-color: #f1f1f1;
+    background-color: rgba(228, 230, 228, 0.6);
 
     border: #e5e5e5 1px;
     padding-bottom: 50px;
@@ -108,7 +108,7 @@
 .partybuildingandassistance_3 {
 
     margin: 0 auto;
-    background-color: #f1f1f1;
+    background-color: rgba(228, 230, 228, 0.6);
     border-radius: 10px;
 }
 
